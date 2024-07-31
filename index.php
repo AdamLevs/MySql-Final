@@ -20,10 +20,10 @@
 <body>
     <?php
     // Connect to the database
-    $host = 'adam-db-cloud.cx248m4we6k7.us-east-1.rds.amazonaws.com';
-    $user = 'Adam';
-    $password = 'Adam';
-    $dbname = 'breached';
+    $host = 'Put_Your_DB-ID_JERE';
+    $user = 'Put_the_user_that_read_the_DB';
+    $password = 'Put_the_password_for_that_user';
+    $dbname = 'Put_the_name_of_the_DB(the table)';
 
     // Create connection
     $conn = mysqli_connect($host, $user, $password, $dbname);
@@ -34,7 +34,7 @@
     }
 
     // Select all rows from the breached table
-    $sql = "SELECT id, email, pass, date_add FROM breached";
+    $sql = "SELECT * from $dbname";
     $result = mysqli_query($conn, $sql);
 
     if ($result) {
