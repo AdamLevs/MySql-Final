@@ -20,7 +20,7 @@
 <body>
     <?php
     // Connect to the database
-    $host = 'Put_Your_DB-ID_JERE';
+    $host = 'Put_Your_DB-ID_HERE';
     $user = 'Put_the_user_that_read_the_DB';
     $password = 'Put_the_password_for_that_user';
     $dbname = 'Put_the_name_of_the_DB(the table)';
