@@ -1,4 +1,4 @@
-Simple php file that connect DB
+Simple PHP file 
+=============
 
-in: // Connect to the database - please provide that correct data!!!
-
+php file that run index.php at your local web
